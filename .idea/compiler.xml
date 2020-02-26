@@ -19,6 +19,7 @@
       <module name="view-service-ribbon" target="1.8" />
       <module name="view-servie-fegin" target="1.8" />
       <module name="view-servie-ribbon" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -12,6 +12,7 @@
         <module>data-service</module>
         <module>view-servie-ribbon</module>
         <module>view-servie-fegin</module>
+        <module>zuul</module>
     </modules>
 
     <packaging>pom</packaging>

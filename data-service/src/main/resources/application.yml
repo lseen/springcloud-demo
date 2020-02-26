@@ -1,5 +1,5 @@
 #设置项目启动名称及eureka客户端
-#2.数据微服务
+#数据微服务
 eureka:
   client:
     serviceUrl:
@@ -9,7 +9,6 @@ spring:
     name: data-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/how2java?characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/springcloud?characterEncoding=UTF-8
     username: root
     password: admin
-

@@ -1,5 +1,5 @@
 #设置项目启动名称及开启eureka服务端的ip、端口、注册方式
-#1.eureka注册中心
+#eureka注册中心
 eureka:
   instance:
     hostname: 127.0.0.1

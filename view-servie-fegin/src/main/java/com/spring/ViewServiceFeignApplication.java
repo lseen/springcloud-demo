@@ -20,6 +20,7 @@ import java.util.concurrent.TimeoutException;
 @EnableDiscoveryClient
 @EnableEurekaClient
 @EnableFeignClients
+
 public class ViewServiceFeignApplication {
     public static void main(String[] args) {
         int port = 0;

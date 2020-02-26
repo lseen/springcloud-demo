@@ -1,3 +1,5 @@
+#设置项目启动名称及开启eureka服务端的ip、端口、注册方式
+#视图微服务（feign：对ribbon的封装，接口式服务调用，符合编程习惯）
 eureka:
   client:
     serviceUrl:
@@ -12,3 +14,4 @@ spring:
     encoding: UTF-8
     content-type: text/html
     mode: HTML5
+feign.hystrix.enabled: true

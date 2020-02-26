@@ -1,5 +1,5 @@
 #设置项目启动名称及开启eureka服务端的ip、端口、注册方式
-#3.视图微服务（ribbon：服务与服务之间的一种调用方式）
+#视图微服务（ribbon：服务与服务之间的一种调用方式，负载均衡）
 eureka:
   client:
     serviceUrl:

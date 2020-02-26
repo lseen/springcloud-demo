@@ -30,7 +30,7 @@ public class Product {
         this.price = price;
     }
 
-    public Product() {
+    public Product(Integer id, String name, Integer price) {
 
     }
 
@@ -41,4 +41,6 @@ public class Product {
         this.price = price;
     }
 
+    public Product() {
+    }
 }
