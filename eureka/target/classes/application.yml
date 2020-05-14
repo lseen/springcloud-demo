@@ -1,8 +1,7 @@
-#设置项目启动名称及开启eureka服务端的ip、端口、注册方式
 #eureka注册中心
-eureka:
+eureka: #设置项目启动名称及开启eureka服务端的ip、端口、注册方式
   instance:
-    hostname: 127.0.0.1
+    hostname: localhost
   client:
     register-with-eureka: false
     fetch-registry: false
@@ -11,4 +10,3 @@ eureka:
 spring:
   application:
     name: eureka-server
-

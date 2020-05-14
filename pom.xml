@@ -6,6 +6,7 @@
     <groupId>com.spring</groupId>
     <artifactId>cloud</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>eureka</module>
@@ -13,18 +14,16 @@
         <module>view-servie-ribbon</module>
         <module>view-servie-fegin</module>
         <module>zuul</module>
+        <module>hystrix-dashboard</module>
     </modules>
 
-    <packaging>pom</packaging>
-    <name>cloud</name>
-    <!--springboot版本-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.3.RELEASE</version>
         <relativePath/>
     </parent>
-    <!--springcloud版本-->
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -43,9 +42,15 @@
             <artifactId>hutool-all</artifactId>
             <version>4.3.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
-    <!--springcloud管理版本及打包方式-->
+    <!--springcloud管理版本-->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -57,13 +62,18 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <!--用springboot默认的方式构建项目,其他子模块一样-->
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                    <addResources>true</addResources>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+
 </project>

@@ -1,9 +1,9 @@
-#设置项目启动名称及开启eureka服务端的ip、端口、注册方式
-#视图微服务（feign：对ribbon的封装，接口式服务调用，符合编程习惯）
+#视图微服feign(ribbon的封装，面向接口式服务调用）
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
 spring:
   application:
     name: view-service-feign
@@ -12,6 +12,6 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
     encoding: UTF-8
-    content-type: text/html
-    mode: HTML5
+    mode: html5
+
 feign.hystrix.enabled: true
