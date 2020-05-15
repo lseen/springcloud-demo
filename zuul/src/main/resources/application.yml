@@ -9,8 +9,8 @@ spring:
 zuul:
   routes:
     api-a:
-      path: api-data/**
+      path: /api-data/**
       serviceId: DATA-SERVICE
     api-b:
-      path: api-view/**
+      path: /api-view/**
       serviceId: VIEW-SERVICE-FEIGN
