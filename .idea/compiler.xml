@@ -10,12 +10,14 @@
         <module name="eureka" />
         <module name="view-servie-fegin" />
         <module name="view-servie-ribbon" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud" target="1.8" />
       <module name="data-service" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="view-service-ribbon" target="1.8" />
       <module name="view-servie-fegin" target="1.8" />
       <module name="view-servie-ribbon" target="1.8" />
