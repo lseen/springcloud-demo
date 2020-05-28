@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="data-service" />
-        <module name="eureka" />
         <module name="view-servie-fegin" />
-        <module name="view-servie-ribbon" />
         <module name="zuul" />
+        <module name="view-servie-ribbon" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,5 +23,14 @@
       <module name="view-servie-ribbon" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="data-service" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="view-servie-fegin" options="-parameters" />
+      <module name="view-servie-ribbon" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
   </component>
 </project>
