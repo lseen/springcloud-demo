@@ -14,7 +14,7 @@
         <module>view-servie-ribbon</module>
         <module>view-servie-fegin</module>
         <module>zuul</module>
-        <module>hystrix-dashboard</module>
+        <module>api-commons</module>
     </modules>
 
     <parent>

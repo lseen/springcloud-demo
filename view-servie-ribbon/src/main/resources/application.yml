@@ -8,4 +8,7 @@ spring:
     name: view-service-ribbon
   thymeleaf:
     cache: false
-    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    mode: html5

@@ -5,6 +5,7 @@ import cn.hutool.core.convert.Convert;
 import cn.hutool.core.thread.ThreadUtil;
 import cn.hutool.core.util.NetUtil;
 import cn.hutool.core.util.NumberUtil;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -20,6 +21,7 @@ import java.util.concurrent.TimeoutException;
  */
 @SpringBootApplication
 @EnableEurekaClient
+@MapperScan("com.springcloud.dao")
 public class DataServiceApplication {
     public static void main(String[] args) {
         int port = 0;

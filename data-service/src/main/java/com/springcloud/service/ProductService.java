@@ -19,6 +19,6 @@ public class ProductService {
 
     public List<Product> listProducts() {
         System.out.println("当前端口是" + port);
-        return productDao.listProducts();
+        return productDao.selectList(null);
     }
 }

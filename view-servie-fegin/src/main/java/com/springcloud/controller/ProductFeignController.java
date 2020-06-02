@@ -15,8 +15,8 @@ public class ProductFeignController {
     @Autowired
     ProductFeignService productFeignService;
 
-    @RequestMapping("/products")
-    public Object products(Model m) {
+    @RequestMapping(path = "/products")
+    public String products(Model m) {
         List<Product> ps = productFeignService.listProducts();
         m.addAttribute("ps", ps);
         return "products";

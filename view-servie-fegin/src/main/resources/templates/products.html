@@ -1,35 +1,24 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
     <title>视图微服务feign</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 400px;
-            margin: 20px auto;
-            align-content: center;
-        }
-
-        td, th {
-            border: 1px solid red;
-        }
-
-    </style>
 </head>
+<script src="/bootstrap/js/jquery/2.0.0/jquery.min.js"></script>
+<link href="/bootstrap/css/bootstrap/3.3.6/bootstrap.css" rel="stylesheet"/>
+<script src="/bootstrap/js/bootstrap/3.3.6/bootstrap.min.js"></script>
 <body>
-
-<div class="workingArea">
-    <table>
+<div class="col-md-12">
+    <table class="table table-hover">
         <thead>
         <tr>
             <th>id</th>
-            <th>产品名称</th>
+            <th>名称</th>
             <th>价格</th>
         </tr>
         </thead>
         <tbody>
-        <tr th:each="p: ${ps}">
+        <tr th:each="p:${ps}">
             <td th:text="${p.id}"></td>
             <td th:text="${p.name}"></td>
             <td th:text="${p.price}"></td>
@@ -37,7 +26,5 @@
         </tbody>
     </table>
 </div>
-
 </body>
-
 </html>

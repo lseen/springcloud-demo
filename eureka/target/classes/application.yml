@@ -7,6 +7,7 @@ eureka: #设置项目启动名称及开启eureka服务端的ip、端口、注册
     fetch-registry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}
+
 spring:
   application:
     name: eureka-server
