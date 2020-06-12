@@ -2,18 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="data-service" />
-        <module name="view-servie-fegin" />
         <module name="zuul" />
         <module name="view-servie-ribbon" />
         <module name="eureka" />
+        <module name="api-commons" />
+        <module name="view-servie-fegin" />
+        <module name="data-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-commons" target="1.8" />
       <module name="cloud" target="1.8" />
       <module name="data-service" target="1.8" />
       <module name="eureka" target="1.8" />
@@ -26,6 +29,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-commons" options="-parameters" />
       <module name="data-service" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="view-servie-fegin" options="-parameters" />
