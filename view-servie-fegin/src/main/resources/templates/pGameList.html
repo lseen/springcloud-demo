@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
+    <title>视图微服务feign</title>
+</head>
+<script src="/bootstrap/js/jquery/2.0.0/jquery.min.js"></script>
+<link href="/bootstrap/css/bootstrap/3.3.6/bootstrap.css" rel="stylesheet"/>
+<script src="/bootstrap/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+<body>
+<div class="col-md-12">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>商品名称</th>
+            <th>商品图片</th>
+            <th>开始时间</th>
+            <th>结束时间</th>
+            <th>优惠券id</th>
+            <th>创建时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="p:${ps}">
+            <td th:text="${p.gameId}"></td>
+            <td th:text="${p.commodityName}"></td>
+            <td th:text="${p.commodityImg}"></td>
+            <td th:text="${p.beginSecond}"></td>
+            <td th:text="${p.endSecond}"></td>
+            <td th:text="${p.couponId}"></td>
+            <td th:text="${p.createTime}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

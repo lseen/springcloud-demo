@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59ff280d-7eca-41f0-b185-1c905ec4a34e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/pojo/PGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/service/impl/PGameServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-service/src/main/resources/mapper/PGame/PGameDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/client/PGameClientFeignHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/pojo/PGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/src/main/java/com/springcloud/pojo/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/DataServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/DataServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/controller/PGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/dao/PGameDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/springcloud/service/PGameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/springcloud/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/springcloud/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-fegin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/view-servie-fegin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/ViewServiceFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/ViewServiceFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/client/ProductClientFeignHystrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/client/ProductFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/client/PGameFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/controller/ProductFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/controller/PGameFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/service/ProductFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/view-servie-fegin/src/main/java/com/springcloud/service/PGameFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-fegin/src/main/resources/static/vue/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-fegin/src/main/resources/static/vue/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-fegin/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/view-servie-fegin/src/main/resources/templates/pGameList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-ribbon/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-ribbon/src/main/java/com/springcloud/ViewServiceRibbonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-ribbon/src/main/java/com/springcloud/client/ProductRibbonClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-ribbon/src/main/java/com/springcloud/controller/ProductRibbonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-ribbon/src/main/java/com/springcloud/service/ProductRibbonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-ribbon/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-servie-ribbon/src/main/resources/templates/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/springcloud/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/springcloud/ZuulApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mu2dkw97wEDkjfNt9a9sC77Ndp" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data-service/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\springcloud-demo\data-service\src\main\java" />
+      <recent name="D:\project\springcloud-demo\view-servie-fegin\src\main\java\com\springcloud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\springcloud-demo\data-service\src\main\resources\mapper\PGame" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+    <configuration name="DataServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="data-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.DataServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="view-servie-fegin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.ViewServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59ff280d-7eca-41f0-b185-1c905ec4a34e" name="Default Changelist" comment="" />
+      <created>1610329245279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610329245279</updated>
+      <workItem from="1610329264308" duration="1712000" />
+      <workItem from="1610331171587" duration="931000" />
+      <workItem from="1610332168835" duration="2362000" />
+      <workItem from="1610334626652" duration="8371000" />
+      <workItem from="1618793557374" duration="207000" />
+      <workItem from="1618793908184" duration="1139000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="4" key="#Plugins" timestamp="1610331179391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="4" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1610331179391" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1610336937648">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1610336937648" />
+    <state x="526" y="74" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1610333744667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="74" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1610333744667" />
+    <state x="427" y="53" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610336987355">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="427" y="53" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1610336987355" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1610338810403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610338810403" />
+    <state x="494" y="264" key="Github.CreateGistDialog" timestamp="1610337245697">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="494" y="264" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1610337245697" />
+    <state width="905" height="438" key="GridCell.Tab.0.bottom" timestamp="1610343119039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610343119039" />
+    <state width="905" height="438" key="GridCell.Tab.0.center" timestamp="1610343119039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610343119039" />
+    <state width="905" height="438" key="GridCell.Tab.0.left" timestamp="1610343119039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610343119039" />
+    <state width="905" height="438" key="GridCell.Tab.0.right" timestamp="1610343119039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610343119039" />
+    <state width="905" height="438" key="GridCell.Tab.1.bottom" timestamp="1610343119039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610343119039" />
+    <state width="905" height="438" key="GridCell.Tab.1.center" timestamp="1610343119039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610343119039" />
+    <state width="905" height="438" key="GridCell.Tab.1.left" timestamp="1610343119039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610343119039" />
+    <state width="905" height="438" key="GridCell.Tab.1.right" timestamp="1610343119039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610343119039" />
+    <state width="905" height="438" key="GridCell.Tab.2.bottom" timestamp="1610343119040">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610343119040" />
+    <state width="905" height="438" key="GridCell.Tab.2.center" timestamp="1610343119040">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1610343119040" />
+    <state width="905" height="438" key="GridCell.Tab.2.left" timestamp="1610343119040">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1610343119040" />
+    <state width="905" height="438" key="GridCell.Tab.2.right" timestamp="1610343119040">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="438" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1610343119040" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1610332882321">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1610332882321" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1618793958747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1618793958747" />
+    <state x="384" y="96" width="598" height="536" key="find.popup" timestamp="1610333942398">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="96" width="598" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1610333942398" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1618794443397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1618794443397" />
+  </component>
+</project>

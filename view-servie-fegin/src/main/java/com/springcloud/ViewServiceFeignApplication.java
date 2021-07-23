@@ -1,8 +1,8 @@
 package com.springcloud;
 
 import cn.hutool.core.convert.Convert;
+import cn.hutool.core.net.NetUtil;
 import cn.hutool.core.thread.ThreadUtil;
-import cn.hutool.core.util.NetUtil;
 import cn.hutool.core.util.NumberUtil;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.SpringCloudApplication;

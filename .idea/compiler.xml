@@ -8,9 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zuul" />
-        <module name="view-servie-ribbon" />
         <module name="eureka" />
-        <module name="api-commons" />
         <module name="view-servie-fegin" />
         <module name="data-service" />
       </profile>

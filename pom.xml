@@ -11,10 +11,8 @@
     <modules>
         <module>eureka</module>
         <module>data-service</module>
-        <module>view-servie-ribbon</module>
         <module>view-servie-fegin</module>
         <module>zuul</module>
-        <module>api-commons</module>
     </modules>
 
     <parent>
@@ -31,22 +29,17 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
 
+
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>4.3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.10</version>
-            <optional>true</optional>
+            <version>5.1.0</version>
         </dependency>
     </dependencies>
 
